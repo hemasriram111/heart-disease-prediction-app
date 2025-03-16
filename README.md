@@ -64,3 +64,28 @@ The dataset used is the **Heart Disease Dataset**, which contains the following 
    ```bash
    git clone https://github.com/your-username/heart-disease-prediction-app.git
    cd heart-disease-pred
+
+2. Here’s the `requirements.txt` file for the **Heart Disease Prediction Web App**:
+
+```plaintext
+streamlit
+pandas
+scikit-learn
+matplotlib
+seaborn
+numpy
+```
+
+---
+
+### **How to Use `requirements.txt`**
+1. Save the above content in a file named `requirements.txt` in the root directory of your project.
+2. Install the dependencies using the following command:
+3. 
+   ```bash
+   pip install -r requirements.txt
+   ```
+3.**How to Run**
+```bash
+   streamlit run app.py
+   ```
