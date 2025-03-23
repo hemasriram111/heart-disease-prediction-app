@@ -9,7 +9,7 @@ from sklearn.model_selection import train_test_split
 import seaborn as sns
 
 # Load dataset
-df = pd.read_csv(r"C:\Users\hemas\Desktop\heart\heart.csv")
+df = pd.read_csv(r"hemasriram111/heart-disease-prediction-app/heart.csv")
 
 # HEADINGS
 st.title('Heart Disease Checkup')
